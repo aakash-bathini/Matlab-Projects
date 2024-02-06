@@ -1,28 +1,4 @@
 function [] = A10Prob3_wordle_abathin()
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% ENGR 132 
-% Program Description 
-% Wordle game using while loops and if-else statements
-%
-% Function Call
-% A10Prob3_wordle_abathin
-%
-% Input Arguments
-% No input arguments
-%
-% Output Arguments
-% No output arguments
-%
-% Assignment Information
-%   Assignment:     A10, Problem 3
-%   Author:         Aakash Bathini, abathin@purdue.edu
-%   Team ID:        001-21
-%   Academic Integrity:
-%     [] I worked with one or more peers but our collaboration
-%        maintained academic integrity.
-%     Peers I worked with: Name, login@purdue [repeat for each]
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 %% ____________________
 %% INITIALIZATION
 
@@ -103,10 +79,4 @@ else
     fprintf('You could not solve this wordle in %d guesses. The word was %s.\n', max_guess, solution); %Otherwise, display correct word.
 end
 
-%% ____________________
-%% ACADEMIC INTEGRITY STATEMENT
-% I have not used source code obtained from any other unauthorized
-% source, either modified or unmodified.  Neither have I provided
-% access to my code to another. The function I am submitting
-% is my own original work.
 
